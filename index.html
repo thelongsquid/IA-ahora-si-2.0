@@ -5,25 +5,55 @@
   <title>Mensaje al Futuro</title>
   <style>
     body {
-      background-color: #fdf6e3;
+      background-color: #fefbd8;
       color: #333;
       font-family: 'Courier New', monospace;
       padding: 50px;
       max-width: 800px;
       margin: auto;
     }
+
     h1 {
       text-align: center;
+      font-size: 2.5em;
+    }
+
+    .imagen {
+      display: block;
+      margin: 30px auto;
+      width: 250px;
+      animation: flotar 3s infinite alternate ease-in-out;
+    }
+
+    @keyframes flotar {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(-10px); }
+    }
+
+    p {
+      line-height: 1.6;
+      font-size: 1.1em;
+      margin-bottom: 20px;
+    }
+
+    .firma {
+      text-align: right;
+      font-style: italic;
     }
   </style>
 </head>
 <body>
-  <h1>✉️ Mensaje al Futuro</h1>
-  <p>Hola, extraño del mañana. Si estás leyendo esto, significa que de alguna forma llegaste aquí, a este pequeño rincón del tiempo.</p>
-  <p>Mi nombre es [Tu Nombre o Seudónimo]. Hoy es [Fecha].</p>
-  <p>Sólo quería decirte que no todo estaba perdido. Que incluso en los días más raros, la gente seguía soñando, plantando, cantando. Y yo, aquí, dejé esta pequeña semilla para ti.</p>
-  <p>¿Qué harás tú con el tiempo que te queda?</p>
-  <p>— Con cariño desde el pasado.</p>
-  <img src="green-tea-1942.jpeg"
+
+  <h1>💌 Mensaje al Futuro</h1>
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Frontera_mexico_usa.jpg/640px-Frontera_mexico_usa.jpg" alt="Imagen al futuro" class="imagen">
+
+  <p>Si estás leyendo esto, entonces el tiempo funcionó.</p>
+  <p>Estamos en el año 2025. Hay incertidumbre, pero también esperanza. Gente que planta, canta, crea. Y entre ellos, yo: alguien que decidió dejar esta pequeña cápsula para ti.</p>
+  <p>Que no se te olvide mirar el cielo, cuidar lo vivo, y preguntarte <strong>¿qué vas a dejar tú?</strong></p>
+
+  <p class="firma">— Con cariño desde el pasado 🌱</p>
+
 </body>
 </html>
+
